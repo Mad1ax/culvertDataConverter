@@ -1,0 +1,155 @@
+HTML {
+    width: 1250px;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: lightblue;
+    width: 1250px;
+
+}
+
+form {
+    /*height: 100%;*/
+}
+
+.container {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    text-align: center;
+    background: #efefef;
+    /*margin: 5px;*/
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+}
+
+.title h1 {
+    position: relative;
+
+}
+
+.inputContainer {
+    padding: 10px;
+    /*min-height: 160px;*/
+
+}
+
+.appendText {
+    font-size: 15px;
+    /*font-family: sans-serif;*/
+    color: red;
+    margin-top: 17px;
+    margin-left: 20px;
+    position: absolute;
+    left: 48%;
+}
+
+textarea {
+    width: 100%;
+    height: 95%;
+    text-align: center;
+    vertical-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonContainer button {
+    margin: 5px;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    overflow: hidden;
+
+}
+
+.input input {
+    text-align: center;
+    min-width: 90%;
+    height: 90%;
+    /*margin: auto;*/
+    /*margin: 5px;*/
+}
+
+/*.input {*/
+
+/*}*/
+
+/*.containerTable {*/
+
+/*}*/
+
+/*td {*/
+/*    border: 2px solid red;*/
+/*}*/
+
+.table{
+    /*border: 1px solid #eee;*/
+    table-layout: fixed;
+    /*border: 2px solid gray;*/
+
+    margin-bottom: 15px;
+    width: 1250px;
+
+
+}
+.table thead {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+    text-align: center;
+
+}
+.table td{
+    padding: 2px 3px;
+    border: 2px solid #eee;
+    text-align: center;
+    overflow: hidden;
+    /*min-width: 22px;*/
+}
+
+
+.table tbody tr:nth-child(odd){
+    background: #fff;
+}
+.table tbody tr:nth-child(even){
+    background: #F7F7F7;
+}
+
+/**/
+
+button.bot1 {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px;
+    color: #555555;
+    display:block;
+    min-width:220px;
+    margin: 10px auto;
+    font-size: 14px;
+    text-align:center;
+    height: 30px;
+    /*line-height: 20px;*/
+    /*margin-bottom: 10px;*/
+    padding: 4px 6px;
+    /*vertical-align: middle;*/
+    text-decoration:none;
+}
+button.bot1:hover, button.bot1:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.075) inset, 0 0 20px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
