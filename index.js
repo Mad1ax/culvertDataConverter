@@ -10,6 +10,7 @@ let arrToExcel = []
 //обработчик кнопки копирования данных
 const copyTableButton = document.querySelector('#buttonCopyTable')
 copyTableButton.addEventListener('click', (event) => {
+    arrToExcel.length = 0
     event.preventDefault()
     makeSound()
     copyArrCreator()
