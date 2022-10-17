@@ -135,6 +135,15 @@ function copyTextToClipboard(text) {
     });
 }
 
+//обработка кнопки очистки
+const clearButton = document.querySelector('#buttonClear')
+clearButton.addEventListener('click', (event) => {
+    event.preventDefault()
+    makeSound()
+    form.elements.inputText.value = ''
+
+})
+
 //функция создания звука
 const makeSound = (action = 'click') => {
     const audio = new Audio()
