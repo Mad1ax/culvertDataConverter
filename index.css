@@ -1,84 +1,91 @@
 HTML {
-    width: 1250px;
+  width: 1250px;
 }
-
 
 body {
-    font-family: sans-serif;
-    font-size: 10px;
-    background-color: lightblue;
-    width: 1250px;
-
+  font-family: sans-serif;
+  font-size: 10px;
+  background-color: lightblue;
+  width: 1250px;
 }
 
-form {
-    /*height: 100%;*/
+.floatRright {
+  position: relative;
+  top: 20px; 
+  left: 300px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleContainer h1 {
+  position: center;
 }
 
 .container {
-    border: 2px solid lightblue;
-    border-radius: 5px;
-    text-align: center;
-    background: #efefef;
-    /*margin: 5px;*/
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  text-align: center;
+  background: #efefef;
+  /*margin: 5px;*/
 }
 
 .title {
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
 }
 
-.title h1 {
-    position: relative;
+/* .title h1 {
+    position: center;
 
-}
+} */
 
 .inputContainer {
-    padding: 10px;
-    /*min-height: 160px;*/
-
+  padding: 10px;
+  /*min-height: 160px;*/
 }
 
 .appendText {
-    font-size: 15px;
-    /*font-family: sans-serif;*/
-    color: red;
-    margin-top: 17px;
-    margin-left: 20px;
-    position: absolute;
-    left: 720px;
+  font-size: 15px;
+  /*font-family: sans-serif;*/
+  color: red;
+  margin-top: 17px;
+  margin-left: 20px;
+  position: absolute;
+  left: 720px;
 }
 
 textarea {
-    width: 100%;
-    height: 95%;
-    text-align: center;
-    vertical-align: center;
+  width: 100%;
+  height: 95%;
+  text-align: center;
+  vertical-align: center;
 }
 
 .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .buttonContainer button {
-    margin: 5px;
+  margin: 5px;
 }
 
 .input {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    overflow: hidden;
-
+  display: grid;
+  grid-template-columns: 80% 20%;
+  overflow: hidden;
 }
 
 .input input {
-    text-align: center;
-    min-width: 90%;
-    height: 90%;
-    /*margin: auto;*/
-    /*margin: 5px;*/
+  text-align: center;
+  min-width: 90%;
+  height: 90%;
+  /*margin: auto;*/
+  /*margin: 5px;*/
 }
 
 /*.input {*/
@@ -93,63 +100,61 @@ textarea {
 /*    border: 2px solid red;*/
 /*}*/
 
-.table{
-    /*border: 1px solid #eee;*/
-    table-layout: fixed;
-    /*border: 2px solid gray;*/
+.table {
+  /*border: 1px solid #eee;*/
+  table-layout: fixed;
+  /*border: 2px solid gray;*/
 
-    margin-bottom: 15px;
-    width: 1250px;
-
-
+  margin-bottom: 15px;
+  width: 1250px;
 }
 .table thead {
-    font-weight: bold;
-    padding: 5px;
-    background: #efefef;
-    border: 1px solid #dddddd;
-    text-align: center;
-
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+  text-align: center;
 }
-.table td{
-    padding: 2px 3px;
-    border: 2px solid #eee;
-    text-align: center;
-    overflow: hidden;
-    /*min-width: 22px;*/
+.table td {
+  padding: 2px 3px;
+  border: 2px solid #eee;
+  text-align: center;
+  overflow: hidden;
+  /*min-width: 22px;*/
 }
 
-
-.table tbody tr:nth-child(odd){
-    background: #fff;
+.table tbody tr:nth-child(odd) {
+  background: #fff;
 }
-.table tbody tr:nth-child(even){
-    background: #F7F7F7;
+.table tbody tr:nth-child(even) {
+  background: #f7f7f7;
 }
 
 /**/
 
 button.bot1 {
-    background-color: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
-    border-radius: 4px;
-    color: #555555;
-    display:block;
-    min-width:220px;
-    margin: 10px auto;
-    font-size: 14px;
-    text-align:center;
-    height: 30px;
-    /*line-height: 20px;*/
-    /*margin-bottom: 10px;*/
-    padding: 4px 6px;
-    /*vertical-align: middle;*/
-    text-decoration:none;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  border-radius: 4px;
+  color: #555555;
+  display: block;
+  min-width: 220px;
+  margin: 10px auto;
+  font-size: 14px;
+  text-align: center;
+  height: 30px;
+  /*line-height: 20px;*/
+  /*margin-bottom: 10px;*/
+  padding: 4px 6px;
+  /*vertical-align: middle;*/
+  text-decoration: none;
 }
-button.bot1:hover, button.bot1:focus {
-    border-color: rgba(82, 168, 236, 0.8);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.075) inset, 0 0 20px rgba(82, 168, 236, 0.6);
-    outline: 0 none;
+button.bot1:hover,
+button.bot1:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.075) inset,
+    0 0 20px rgba(82, 168, 236, 0.6);
+  outline: 0 none;
 }
